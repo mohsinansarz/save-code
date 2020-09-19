@@ -6,7 +6,7 @@ form.addEventListener('submit', (event) => {
         const sendData = (sRate, count)=>{
             if (sRate === count){
                 alert('Hello')
-                swal("Good job!"+ nameVal, "You clicked the button!", "success");
+                swal("Good job!", "You clicked the button!", "success");
                 location.href = 'demo.html'
             }
         }
